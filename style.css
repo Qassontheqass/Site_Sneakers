@@ -1,0 +1,48 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    background-color: paleturquoise;
+    display: flex;
+    flex-direction: column;
+}
+
+#a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav{
+    background-color: palegoldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.a{
+    width: 200px;
+}
+
+.b{
+    padding: 20px;
+    background-color: palegoldenrod;
+    text-align: center;
+    color: black;
+}
+
+div.c{
+    display: none;
+}
+
+div.b:hover{
+    background-color: palegoldenrod;
+    cursor: pointer;
+}
+
+.a:hover .c{
+    display: block;
+}
