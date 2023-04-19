@@ -4,34 +4,48 @@ html,body{
 }
 
 header{
-    background-color: paleturquoise;
     display: flex;
     flex-direction: column;
+    border-bottom: solid 1px black;
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+h1:hover{
+    cursor: pointer;
 }
 
 #a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav{
-    background-color: palegoldenrod;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 60px;
+    height: 50px;
+    border-top: solid 1px black;
 }
 
 .a{
     width: 200px;
+    z-index: 999;
 }
 
 .b{
+    height: 10px;
     padding: 20px;
-    background-color: palegoldenrod;
+    background-color: white;
     text-align: center;
     color: black;
+    border-bottom: solid black 1px;
 }
 
 div.c{
@@ -39,10 +53,152 @@ div.c{
 }
 
 div.b:hover{
-    background-color: palegoldenrod;
+    background-color: white;
     cursor: pointer;
 }
 
 .a:hover .c{
     display: block;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+#recherche{
+    font-size: smaller;
+    padding: 10px;
+}
+
+h2{
+    font-size: medium;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    height: 75%;
+    width: 80%;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories>.filtres{
+    display: none;
+}
+
+#b{
+    color: black;
+    position: relative;
+}
+
+.check:checked~.filtres{
+    display: block;
+
+}
+
+.check:hover{
+    cursor: pointer;
+}
+
+.check{
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    opacity: 0;
+}
+
+.categories{
+    position: relative;
+}
+
+.filtres{
+    padding: 0;
+}
+
+footer{
+    border-top: solid 1px black;
+    background-color: black;
+    color: white;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px white;
+    font-size: small;
+    background-color: white;
+    color: black;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+}
+
+.two{
+    display: flex;
+}
+
+.two>div{
+    padding:5px;
+}
+
+.nikes{
+    display: flex;
+    font-size: small;
+}
+
+.adidas{
+    display: flex;
+    font-size: small;
+}
+
+.reebok{
+    display: flex;
+    font-size: small;
+}
+
+.vans{
+    display: flex;
+    font-size: small;
+}
+
+.dunk{
+    display: flex;
+    font-size: small;
+}
+
+.jordan1{
+    display: flex;
+    font-size: small;
+}
+
+.jordan4{
+    display: flex;
+    font-size: small;
+}
+
+.af1{
+    display: flex;
+    font-size: small;
 }
