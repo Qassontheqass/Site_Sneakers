@@ -202,3 +202,72 @@ footer{
     display: flex;
     font-size: small;
 }
+
+.gazelle{
+    display: flex;
+    font-size: small;
+}
+
+.superstar{
+    display: flex;
+    font-size: small;
+}
+
+.stansmith{
+    display: flex;
+    font-size: small;
+}
+
+.yeezy{
+    display: flex;
+    font-size: small;
+}
+
+.clubc85{
+    display: flex;
+    font-size: small;
+}
+
+.clubc85vintage{
+    display: flex;
+    font-size: small;
+}
+
+.classicleather{
+    display: flex;
+    font-size: small;
+}
+
+.classicnylon{
+    display: flex;
+    font-size: small;
+}
+
+.slipon{
+    display: flex;
+    font-size: small;
+}
+
+.oldskool{
+    display: flex;
+    font-size: small;
+}
+
+.sk8{
+    display: flex;
+    font-size: small;
+}
+
+.era{
+    display: flex;
+    font-size: small;
+}
+
+.coming{
+    width: 100%;
+}
+
+.coming>div,.coming img{
+    width: inherit;
+}
+
